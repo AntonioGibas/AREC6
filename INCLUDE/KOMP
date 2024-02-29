@@ -1,0 +1,10 @@
+ DCL 1 KOMPONENTE BASED(KOMPTR),                                        00010000
+       2 ID CHAR(8),                                                    00020002
+       2 F1 CHAR(1),                                                    00030002
+       2 NAME CHAR(17),                                                 00040003
+       2 F2 CHAR(1),                                                    00050002
+       2 PRICE PIC'999',                                                00060002
+       2 F3 CHAR(1),                                                    00070002
+       2 MANUF CHAR(10),                                                00080002
+       2 F4 CHAR(39);                                                   00090003
+ KOMPONENTE = '';                                                       00100005
