@@ -1,10 +1,10 @@
- DCL 1 NAMIRNICE BASED(NAMPTR),                                         00010000
-       2 ID CHAR(8),                                                    00020001
-       2 F1 CHAR(1),                                                    00030001
-       2 NAME CHAR(14),                                                 00040001
-       2 F2 CHAR(1),                                                    00050001
-       2 PRICE PIC'ZV.ZZ',                                              00060005
-       2 F3 CHAR(1),                                                    00070001
-       2 MANUF CHAR(15),                                                00080001
-       2 F4 CHAR(36);                                                   00090006
- NAMIRNICE = '';                                                        00100003
+ DCL 1 NAMIRNICE BASED(NAMPTR),                                         
+       2 ID CHAR(8),                                                    
+       2 F1 CHAR(1),                                                    
+       2 NAME CHAR(14),                                                 
+       2 F2 CHAR(1),                                                    
+       2 PRICE PIC'ZV.ZZ',                                              
+       2 F3 CHAR(1),                                                    
+       2 MANUF CHAR(15),                                                
+       2 F4 CHAR(36);                                                   
+ NAMIRNICE = '';                                                        

@@ -1,8 +1,8 @@
- DCL 1 HOUSEHOLD BASED(HSHPTR),                                         00010000
-       2 ID CHAR(7),                                                    00020004
-       2 F1 CHAR(1),                                                    00030002
-       2 NAME CHAR(19),                                                 00040004
-       2 F2 CHAR(1),                                                    00050002
-       2 PRICE PIC'ZZV.ZZ',                                             00060000
-       2 F3 CHAR(1),                                                    00070002
-       2 MANUF CHAR(46);                                                00080005
+ DCL 1 HOUSEHOLD BASED(HSHPTR),                                        
+       2 ID CHAR(7),                                                   
+       2 F1 CHAR(1),                                                   
+       2 NAME CHAR(19),                                                
+       2 F2 CHAR(1),                                                   
+       2 PRICE PIC'ZZV.ZZ',                                            
+       2 F3 CHAR(1),                                                   
+       2 MANUF CHAR(46);                                               
